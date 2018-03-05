@@ -1,0 +1,8 @@
+<%if current_user %>
+<h1> go to admin page 
+
+<%= link_to 'ADMIN',admin_index_path %>
+</h1>
+<%else%>
+<h1>PUBLIC</h1>
+<%end%>
